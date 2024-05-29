@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 5% 26%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width:100%;
+  height: auto;
+  margin: auto ;
+}
+.header {
+ text-align: left;
+  opacity: 0px;
+  background: linear-gradient(92.74deg, #fd7b46 1.15%, #fe4e9b 98.48%);
+  color: #ffff;
+  padding: 1% 5%;
+}
+h1 {
+  font-size: 2rem;
+}
+.bold {
+  font-weight: 700;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+    color: #ffff;
+  }
+.payment-method {
+  margin-bottom: 5%;
+  width: 100%;
+  height: auto;
+  margin-top: 0%;
+  text-align: center;
+  padding: 2% 0;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card-type {
+  width: 450px;
+  height: 130px;
+  box-shadow: 8px 8px 20px 0px #0000004d;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 8px 8px 20px 0px #0000004d;
+  margin: 1%;
+}
+
+.card-type img {
+    margin: 7% auto 0;
+}
+
+.left-border {
+  border: 4px solid #fe4e9b;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-align: center;
+  color: #939393;
+  margin-top: 0%;
+}
+
+.card-info {
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  width: 326px;
+  height: 68px;
+  border-radius: 68px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffff;
+  background: linear-gradient(92.74deg, #fd7b46 1.15%, #fe4e9b 98.48%);
+  margin-top: 2%;
+}
+.help-text {
+  text-align: center;
+  margin-top: 2%;
+}
+.help-text a {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.7px;
+  text-align: center;
+  text-decoration: none;
+  color: #fe4e9b;
+}
+
+input {
+  
+  height: 44px;
+   border-radius: 4px;
+  border: 1px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+ padding-left: 2%;
+  text-align: left;
+  background: #ffffff;
+}
+
+input[name="card-number"]{
+  width: 100%;
+  }
+input[name="cvv"]{
+width: 70%;
+}
+
+input[name="expiry"]{
+  width: 80%;
+ 
+  }
+  
+
+label{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: center;
+color: #939393;
+margin-bottom: 10px;
+display: block;
+
+}
+.form-group{
+  
+  width: 30%;
+   margin-right: 0%;
+  
+}
+
+.form-fields{
+    display: flex;
+    justify-content: center;
+}
+
